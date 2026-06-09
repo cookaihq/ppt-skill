@@ -1,7 +1,7 @@
 # Guizang PPT Skill · 网页 PPT / 配图 / 封面
 
-![GitHub stars](https://img.shields.io/github/stars/op7418/guizang-ppt-skill?style=flat-square)
-![License](https://img.shields.io/github/license/op7418/guizang-ppt-skill?style=flat-square)
+![GitHub stars](https://img.shields.io/github/stars/cookaihq/ppt-skill?style=flat-square)
+![License](https://img.shields.io/github/license/cookaihq/ppt-skill?style=flat-square)
 ![Skill](https://img.shields.io/badge/Skill-Agent-111111?style=flat-square)
 ![HTML Deck](https://img.shields.io/badge/HTML-Deck-0A7CFF?style=flat-square)
 ![Claude Code](https://img.shields.io/badge/Claude%20Code-Supported-6B5B95?style=flat-square)
@@ -32,19 +32,19 @@
 ## 30 秒开始
 
 ```bash
-npx skills add https://github.com/op7418/guizang-ppt-skill --skill guizang-ppt-skill
+npx skills add https://github.com/cookaihq/ppt-skill --skill ppt-skill
 ```
 
 也可以直接把这段话发给有 shell 权限的 AI Agent:
 
 ```text
-帮我安装 guizang-ppt-skill。请把 https://github.com/op7418/guizang-ppt-skill 克隆到 ~/.claude/skills/guizang-ppt-skill,安装完成后检查 SKILL.md、assets/、references/ 是否存在。
+帮我安装 ppt-skill。请把 https://github.com/cookaihq/ppt-skill 克隆到 ~/.claude/skills/ppt-skill,安装完成后检查 SKILL.md、assets/、references/ 是否存在。
 ```
 
 已经安装过的话,用这段话更新:
 
 ```text
-帮我更新 guizang-ppt-skill。请进入 ~/.claude/skills/guizang-ppt-skill 执行 git pull,然后告诉我当前最新 commit。
+帮我更新 ppt-skill。请进入 ~/.claude/skills/ppt-skill 执行 git pull,然后告诉我当前最新 commit。
 ```
 
 安装后直接对 Agent 说:
@@ -121,16 +121,16 @@ Guizang PPT Skill 的持续迭代获得 **360 安全龙虾** 金牌赞助和 [�
 ### 方式一:一行命令安装(推荐)
 
 ```bash
-npx skills add https://github.com/op7418/guizang-ppt-skill --skill guizang-ppt-skill
+npx skills add https://github.com/cookaihq/ppt-skill --skill ppt-skill
 ```
 
 ### 方式二:把下面这段话直接发给 AI
 
-> 帮我安装 `guizang-ppt-skill` 这个 Claude Code skill。请按下面步骤做:
+> 帮我安装 `ppt-skill` 这个 Claude Code skill。请按下面步骤做:
 >
 > 1. 确保 `~/.claude/skills/` 目录存在(不存在就创建)
-> 2. 执行 `git clone https://github.com/op7418/guizang-ppt-skill.git ~/.claude/skills/guizang-ppt-skill`
-> 3. 验证:`ls ~/.claude/skills/guizang-ppt-skill/` 应该看到 `SKILL.md`、`assets/`、`references/` 三项
+> 2. 执行 `git clone https://github.com/cookaihq/ppt-skill.git ~/.claude/skills/ppt-skill`
+> 3. 验证:`ls ~/.claude/skills/ppt-skill/` 应该看到 `SKILL.md`、`assets/`、`references/` 三项
 > 4. 告诉我安装好了,之后我说"做一份杂志风 PPT"之类的话就会触发这个 skill
 
 把这段话复制粘贴给 Claude Code / Cursor / 任何有 shell 权限的 AI Agent,它会自动完成安装。
@@ -138,7 +138,7 @@ npx skills add https://github.com/op7418/guizang-ppt-skill --skill guizang-ppt-s
 ### 方式三:手动命令行
 
 ```bash
-git clone https://github.com/op7418/guizang-ppt-skill.git ~/.claude/skills/guizang-ppt-skill
+git clone https://github.com/cookaihq/ppt-skill.git ~/.claude/skills/ppt-skill
 ```
 
 ### 触发方式
@@ -239,7 +239,7 @@ node scripts/validate-swiss-deck.mjs path/to/index.html
 ## 目录结构
 
 ```
-guizang-ppt-skill/
+ppt-skill/
 ├── SKILL.md              ← Skill 主文件:工作流、原则、常见错误
 ├── README.md             ← 本文件
 ├── assets/

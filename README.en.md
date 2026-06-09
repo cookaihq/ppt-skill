@@ -1,7 +1,7 @@
 # Guizang PPT Skill · Web Decks / Images / Covers
 
-![GitHub stars](https://img.shields.io/github/stars/op7418/guizang-ppt-skill?style=flat-square)
-![License](https://img.shields.io/github/license/op7418/guizang-ppt-skill?style=flat-square)
+![GitHub stars](https://img.shields.io/github/stars/cookaihq/ppt-skill?style=flat-square)
+![License](https://img.shields.io/github/license/cookaihq/ppt-skill?style=flat-square)
 ![Skill](https://img.shields.io/badge/Skill-Agent-111111?style=flat-square)
 ![HTML Deck](https://img.shields.io/badge/HTML-Deck-0A7CFF?style=flat-square)
 ![Claude Code](https://img.shields.io/badge/Claude%20Code-Supported-6B5B95?style=flat-square)
@@ -30,19 +30,19 @@ It ships with two visual systems:
 ## 30-second start
 
 ```bash
-npx skills add https://github.com/op7418/guizang-ppt-skill --skill guizang-ppt-skill
+npx skills add https://github.com/cookaihq/ppt-skill --skill ppt-skill
 ```
 
 Or paste this to an AI agent with shell access:
 
 ```text
-Install guizang-ppt-skill for me. Clone https://github.com/op7418/guizang-ppt-skill into ~/.claude/skills/guizang-ppt-skill, then verify that SKILL.md, assets/, and references/ exist.
+Install ppt-skill for me. Clone https://github.com/cookaihq/ppt-skill into ~/.claude/skills/ppt-skill, then verify that SKILL.md, assets/, and references/ exist.
 ```
 
 If you already installed it, update with:
 
 ```text
-Update guizang-ppt-skill for me. Go to ~/.claude/skills/guizang-ppt-skill, run git pull, then tell me the latest commit.
+Update ppt-skill for me. Go to ~/.claude/skills/ppt-skill, run git pull, then tell me the latest commit.
 ```
 
 Then ask your agent:
@@ -119,16 +119,16 @@ Guizang PPT Skill is supported by **360 Security Lobster** as Gold Sponsor and b
 ### Option 1: One-line install (recommended)
 
 ```bash
-npx skills add https://github.com/op7418/guizang-ppt-skill --skill guizang-ppt-skill
+npx skills add https://github.com/cookaihq/ppt-skill --skill ppt-skill
 ```
 
 ### Option 2: Paste this to an AI
 
-> Install the `guizang-ppt-skill` Claude Code skill for me. Steps:
+> Install the `ppt-skill` Claude Code skill for me. Steps:
 >
 > 1. Make sure `~/.claude/skills/` exists (create if not)
-> 2. Run `git clone https://github.com/op7418/guizang-ppt-skill.git ~/.claude/skills/guizang-ppt-skill`
-> 3. Verify: `ls ~/.claude/skills/guizang-ppt-skill/` should show `SKILL.md`, `assets/`, `references/`
+> 2. Run `git clone https://github.com/cookaihq/ppt-skill.git ~/.claude/skills/ppt-skill`
+> 3. Verify: `ls ~/.claude/skills/ppt-skill/` should show `SKILL.md`, `assets/`, `references/`
 > 4. Tell me when done. Later, saying things like "make me a magazine-style deck" will trigger this skill.
 
 Paste the block above into Claude Code / Cursor / any AI agent with shell access and it handles the install.
@@ -136,7 +136,7 @@ Paste the block above into Claude Code / Cursor / any AI agent with shell access
 ### Option 3: Manual CLI
 
 ```bash
-git clone https://github.com/op7418/guizang-ppt-skill.git ~/.claude/skills/guizang-ppt-skill
+git clone https://github.com/cookaihq/ppt-skill.git ~/.claude/skills/ppt-skill
 ```
 
 ### How to trigger it
@@ -237,7 +237,7 @@ Redesign these product screenshots into consistent 16:10 slide visuals. Preserve
 ## Directory
 
 ```
-guizang-ppt-skill/
+ppt-skill/
 ├── SKILL.md              ← main skill file: workflow, principles, common mistakes
 ├── README.md             ← Chinese README
 ├── README.en.md          ← this file
